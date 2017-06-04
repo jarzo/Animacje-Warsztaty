@@ -1,9 +1,11 @@
+
+/*1-start*/
 div.box
 {
 	width: 200px;
 	height: 200px;
 	background-color: chartreuse;
-	position: relative
+	
 }
 
 div.mini-box
@@ -11,8 +13,66 @@ div.mini-box
 	width: 100px;
 	height: 100px;
 	background-color: red;
-	position: absolute;
+	position: relative;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%,-50%);
 }
+/*1-stop*/
+
+/*2-start*/
+
+
+/*
+div.przycisk{
+	margin-top: 50px;
+	width: 100px;
+	height: 100px;
+	background-color: aqua;
+	border-radius: 50px;
+	transition: all 0.5s;
+}
+
+div.przycisk i
+{
+	color: white;
+	font-size: 50px;
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	transition: all 0.5s;
+}
+
+div.przycisk:hover
+{
+	background-color: white;
+	border: 1px solid aqua;
+	color: aqua;
+	
+}
+
+ 
+
+i.przycisk1{
+	background-color: aqua;
+	border-radius: 100px;
+	padding: 20px;
+	
+}
+*/
+
+/*2-Stop*/
+
+
+/*3-Start*/
+
+div.gradient
+{
+	margin-top: 50px;
+	width: 100%;
+	height: 80px;
+	background:-webkit-linear-gradient(left,red,orange,yellow,green,blue,indigo,violet);
+}
+
+/*3-Stop*/
