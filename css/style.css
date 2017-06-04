@@ -105,3 +105,60 @@ li{
 }
 
 /*5-stop*/
+/*6-start*/
+#contact .contact-form
+{
+	width: 50%;
+	float: left;
+	margin-top: 100px;
+}
+
+
+input[type="text"],
+input[type="email"], 
+textarea
+{
+	background-color: #2b4a64;
+	color: #fff;
+	width: 100%;
+	margin-bottom: 20px;
+	border: 1px solid  #2b4a64;
+	padding: 10px 0px;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus, 
+textarea:focus
+{
+
+	border: 1px solid #fff;
+	outline: none;
+	background-color: #4e708c;
+}
+
+input[type="submit"]
+{
+	
+	margin-top: 10px;
+	background-color: #1ac056;
+	padding: 15px 30px;
+	text-transform: uppercase;
+	font-weight: 300;
+	border: 1px solid #fff;
+	color: #fff;
+	float: right;
+}
+
+input[type="submit"]:hover
+{
+	background-color: #fff;
+	border: 1px solid #1ac056 ;
+	color: #1ac056;
+	cursor: pointer
+}
+::-webkit-input-placeholder 
+{ 
+	color:#f13471;
+}
+/*6-stop*/
+
