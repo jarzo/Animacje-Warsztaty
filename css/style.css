@@ -177,6 +177,11 @@ a
 }
 /*7-stop*/
 /*8-start*/
+div.cudzyslow
+{
+	margin-bottom: 25px;	
+}
+
 blackquote:lang(en)::before,
 blackquote:lang(en)::after,
 q:lang(en)::before,
@@ -185,13 +190,30 @@ q:lang(en)::after
 	content: "*";
 }
 
-blackquote:lang(de)::before,
-blackquote:lang(de)::after,
-q:lang(de)::before,
-q:lang(de)::after
+blackquote:not(en)::before,
+blackquote:not(en)::after,
+q:not(en)::before,
+q:not(en)::after
 {
 	content: "\0022";
 }
 
 /*8-stop*/
+/*9-start*/
+
+footer
+{
+	width: 100%;
+	height: 5vh;
+	background-color: aqua;
+	bottom: 0;
+	position: fixed;
+	left: 0;
+	text-align: center;
+	font-size: 1.5em;
+	
+}
+
+
+/*9-stop*/
 
