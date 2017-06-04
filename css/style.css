@@ -237,3 +237,35 @@ img:hover
 }
 /*10-stop*/
 
+/*11-start*/
+
+h1.heart{
+	margin-bottom: 100px;
+	text-align: center;
+	font-size: 2em;
+}
+
+i.fa-heart
+{
+	
+	color:red;
+}
+
+.fa-heart
+{
+	animation-name: resize;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes resize
+{
+	0%,100%{
+		transform: scale(1);
+	}
+	50%{
+		transform: scale(2);
+	}
+}
+/*11-stop*/
+
