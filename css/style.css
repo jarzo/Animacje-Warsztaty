@@ -177,10 +177,6 @@ a
 }
 /*7-stop*/
 /*8-start*/
-div.cudzyslow
-{
-	margin-bottom: 25px;	
-}
 
 blackquote:lang(en)::before,
 blackquote:lang(en)::after,
@@ -216,4 +212,28 @@ footer
 
 
 /*9-stop*/
+/*10-stop*/
+div.ramka
+{
+	width: 700px;
+	height: 400px;
+	border: 5px solid red;
+	margin-bottom: 100px;
+	overflow: hidden;
+}
+
+img
+{
+	width: 700px;
+	height: 400px;
+	
+	transition: all 0.5s;
+}
+
+img:hover
+{
+	transform: scale(4);
+	
+}
+/*10-stop*/
 
