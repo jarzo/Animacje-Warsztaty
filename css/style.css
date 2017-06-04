@@ -76,3 +76,19 @@ div.gradient
 }
 
 /*3-Stop*/
+
+
+/*4-Start*/
+video.video
+{
+	width: 100%;
+	height: 100vh;
+}
+
+@media all{
+	video.video{
+		width: 100%;
+	}
+}
+
+/*4-Stop*/
