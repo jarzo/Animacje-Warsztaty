@@ -1,0 +1,25 @@
+body {
+	margin:0;
+}
+
+.content-section{
+	background-color: beige;
+	overflow: hidden;
+	padding: 100px;
+}
+
+.paralaxa{
+	height: 300px;
+	background-color: red;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+#paralaxa-first{
+	background-image: url(../obrazek1.jpg);
+}
+
+#paralaxa-second{
+	background-image: url(../obrazek2.jpg);
+}
