@@ -1,0 +1,18 @@
+div.box
+{
+	width: 200px;
+	height: 200px;
+	background-color: chartreuse;
+	position: relative
+}
+
+div.mini-box
+{
+	width: 100px;
+	height: 100px;
+	background-color: red;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
