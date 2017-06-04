@@ -1,0 +1,53 @@
+*
+{
+	margin: 0;
+}
+/*12-start*/
+body
+{
+	width: 100%;
+	height: 100vh;
+	background-color: aqua;
+}
+
+div.obrazekkurtyna img.kurtyna
+{
+	width: 100%;
+	height: 50vh;
+}
+div.obrazekkurtyna img.kurtyna
+{
+	animation-name: wysokosc;
+	animation-duration: 3s;
+	animation-iteration-count: none;
+	position: fixed;
+	top:0;
+}
+
+div.kolorkurtyna
+{
+	background-color:violet;
+	width: 100%;
+	height: 50vh;
+	
+}
+
+div.kolorkurtyna
+{
+	animation-name: wysokosc;
+	animation-duration: 3s;
+	animation-iteration-count: none;
+	position:fixed;
+	bottom:0;
+}
+
+@-webkit-keyframes wysokosc
+{
+	0%{height: 0vh;}
+	50%{height: 50vh;}
+}
+
+
+	  
+      
+/*12-stop*/
